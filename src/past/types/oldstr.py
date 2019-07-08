@@ -26,7 +26,7 @@ def unescape(s):
     Example:
     >>> s = unescape(r'abc\\def')   # i.e. 'abc\\\\def'
     >>> print(s)
-    'abc\def'
+    'abc\\def'
     >>> s2 = unescape('abc\\ndef')
     >>> len(s2)
     8
